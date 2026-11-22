@@ -3,8 +3,8 @@ from datetime import datetime
 user_input = input("enter your goal with a deadline separated by a colon\n")
 input_list = user_input.split(":")
 
-goal = input_list[0]
-deadline = input_list[1]
+goal = input_list[0].strip()
+deadline = input_list[1].strip()
 
 deadline_date = datetime.strptime(deadline, "%d.%m.%Y")
 today_date = datetime.today()
