@@ -2,7 +2,7 @@
 
 ## Technologies used:
 
-Python, IntelliJ, Git
+Python, Git
 
 ## Project Description:
 
